@@ -6,3 +6,5 @@
 * parsing json
 * adds tabBarController via code
 * reusing UIViewController from storyboart two times
+* uses GCD
+* GCD with performSelector(inBackground:) and performSelector(onMainThread:)
