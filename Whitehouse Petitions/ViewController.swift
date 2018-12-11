@@ -50,9 +50,13 @@ class ViewController: UITableViewController {
                     return
                 }
             }
+            
+            DispatchQueue.main.async {[unowned self] in
+                self.showError()
+            }
         }
         
-        showError()
+        
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
